@@ -4,39 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
+    <title>Spotify Clone - Landing Page</title>
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <section class="section1">
-      <header>
-        <div class="fixedbar">
-          <div class="navbarleft">
-            <img src="./images/spotify-logo.png" alt="Logo Spotify" class="logoSpotify">
-          </div>
-          <div class="navbarright">
-            <ul>
-              <li> <a href="">Premium</a> </li>
-              <li> <a href="">Discover</a> </li>
-              <li> <a href="">Help</a> </li>
-              <li> <a href="">Download</a> </li>
-            </ul>
-          </div>   
-        </div>
+      <header class="header">
+        <nav class="navbar">          
+            <a href="https://open.spotify.com/" target="_blank">
+              <img src="./images/spotify-logo.png" alt="Logo Spotify" class="logoSpotify">
+            </a>
+            <ul class="navbar__list">
+              <li>
+                <a href="">Premium</a>
+              </li>
+              <li>
+                <a href="">Discover</a>
+              </li>
+              <li>
+                <a href="">Help</a>
+              </li>
+              <li>
+                <a href="">Download</a>
+              </li>
+            </ul> 
+        </nav>
       </header>
-      <div class="landingImage">
-          <div class="centerText">
-            <h1>
-              Music for everyone.
-            </h1>
-          </div>
-          <div>
-            <h6>Spotify is now free on mobile, tablet and, computer.<br>
-              Listen to the right music, wherever you are.
-            </h6>
-          </div>
+      <section class="section__landing">
+        <div class="centerText">
+          <h1>Music for everyone.</h1>
         </div>
-    </section>
+        <div>
+          <h6>Spotify is now free on mobile, tablet and computer.<br>
+            Listen to the right music, wherever you are.
+          </h6>
+        </div>
+      </section>
     <section class="section2">
         <div id="titleSection2">
           <span>What’s on Spotify?</span>
