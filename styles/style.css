@@ -68,99 +68,99 @@ body {
     font-size: 1.6em;
 }
 
+.section__whatsOnSpotify{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: auto;
+}
 
-#titleSection2 {
+.title__whatsOnSpotify{
     text-align: center;
-    text-decoration: none;
-    padding: 50px;
+    padding: 3em;
 }
 
-
-#titleSection2>span {
+.title__whatsOnSpotify span{
     border-bottom: 3px solid #1DB954;
-    padding-bottom: 5px;
     font-size: 2em;
-
+    padding-bottom: .2em;
 }
 
-#container {
+#container__whatsOnSpotify {
     display: flex;
     justify-content: center;
     width: 100%;
-    border-color: blue;
     text-align: center;
 }
 
-.box {
+.box{
     display: inline-block;
-    width: 250px;
-    height: 300px;
-    margin: 10px 50px;
-}
-
-.box>div {
-    color: #1DB954;
+    width: 18vw;
+    height: 35vh;
     font-size: 30px;
-    padding: 10px;
+    padding: 15px;
+    margin: 20px 50px;
+    margin-top: -3px;
 }
 
-.box>p {
+.box div {
+    color: #1DB954;
+}
+
+.box p {
     font-size: 25px;
+    color: #000;
 }
-
-
 
 .icon {
-    height: 80px;
+    height: 10vh;
 }
 
-.section3 {
+.section__green {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../images/spotify-icon-white.png");
-    height: 90vh;
+    background-size: cover;
+    height: auto;
     background-color: #00B172;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 15vh;
-    position: flex;
     margin: 0 2vh 2vh 2vh;
     padding: 5vh 0 0 5vh;
 }
 
-.kenye-img {
-    height: 70vh;
-    margin-right: 20vh;
-    position: flex;
-    right: 5vh;
-    top: 8vh;
-}
-
-.article-kenye-west {
+.green__items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: white;
     width: 35%;
-    margin: 45px;
-
+    margin: 10vh;
+    margin-top: 2vh;
 }
 
-.article-kenye-west>h2 {
-    font-size: 4.5vh;
+
+.green__items h2 {
+    font-size: 2em;
     font-weight: 900;
     text-decoration: underline white;
-    text-underline-position: under
+    text-underline-position: under;
 }
 
-.article-kenye-west>p {
-    font-size: 2vh;
+.green__items p {
+    font-size: 1.1em;
     margin-bottom: 7vh;
 }
 
-.article-kenye-west>h3 {
-    font-size: 3.5vh;
+.green__items h3 {
+    font-size: 1.5em;
     font-weight: 600;
+    margin-bottom: -2vh;
 } 
+
+.white__logo{
+    width: 7vw;
+}
+
+.img__app__artist {
+    height: 70vh;
+    margin: 3vh 15vh 5vh 10vh;
+}
