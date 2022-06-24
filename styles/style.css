@@ -122,7 +122,7 @@ body {
   background-size: cover;
   height: auto;
   background-color: #00b172;
-  margin: 0 2vh 2vh 2vh;
+  margin: 5vh 2vh 2vh 2vh;
   padding: 5vh 0 0 5vh;
 }
 
@@ -161,4 +161,235 @@ body {
 .img__app__artist {
   height: 70vh;
   margin: 3vh 15vh 5vh 10vh;
+}
+
+@media (min-width: 1440px) {
+  .bar__button {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .section__green {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    height: auto;
+    background-color: #00b172;
+    margin: 25vh 2vh 2vh 2vh;
+    padding: 5vh 0 0 5vh;
+  }
+  .green__items h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: underline white;
+    text-underline-position: under;
+  }
+  .bar__button {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar__list li {
+    margin-right: 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .bar__button {
+    display: none;
+  }
+  .section__green {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    height: auto;
+    background-color: #00b172;
+    margin: 30vh 2vh 2vh 2vh;
+    padding: 5vh 0 0 5vh;
+  }
+  .green__items h2 {
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: underline white;
+    text-underline-position: under;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .bar__button {
+    width: 45px;
+    height: 45px;
+    background-image: url("../images/hamburguer2.png");
+    border: 0;
+    margin-right: 3vh;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .section__landing div h1 {
+    font-size: 2.5em;
+    margin-top: 3em;
+    margin-bottom: -1rem;
+  }
+  .section__landing div h6 {
+    font-size: 1em;
+    width: 300px;
+  }
+  #container__whatsOnSpotify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 40vh;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-top: 2px;
+  }
+  .box div {
+    color: #1db954;
+    margin-top: 3vh;
+  }
+
+  .section__green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-color: #00b172;
+    margin: 2vh;
+    padding: 5vh 0 0 5vh;
+  }
+
+  .green__items {
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: 8vh;
+    margin-top: 1vh;
+    margin-left: 2.5vh;
+  }
+  .green__items h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: underline white;
+    text-underline-position: under;
+  }
+  .green__items p {
+    font-size: 1em;
+    margin-bottom: 5vh;
+  }
+  .green__items h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: -2vh;
+  }
+  .white__logo {
+    width: 10vw;
+    margin-top: -7vh;
+    margin-bottom: 3vh;
+    margin-right: 8vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .bar__button {
+    width: 45px;
+    height: 45px;
+    background-image: url("../images/hamburguer2.png");
+    border: 0;
+    margin-right: 3vh;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .section__landing div h1 {
+    font-size: 2.5em;
+    margin-top: 3em;
+    margin-bottom: -1rem;
+  }
+  .section__landing div h6 {
+    font-size: 1em;
+    width: 300px;
+  }
+  #container__whatsOnSpotify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 40vh;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-top: 2px;
+  }
+  .box div {
+    color: #1db954;
+    margin-top: 3vh;
+  }
+
+  .section__green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-color: #00b172;
+    margin: 2vh;
+    padding: 5vh 0 0 5vh;
+  }
+
+  .green__items {
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: 8vh;
+    margin-top: 1vh;
+    margin-left: 2.5vh;
+  }
+  .green__items h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: underline white;
+    text-underline-position: under;
+  }
+  .green__items p {
+    font-size: 1em;
+    margin-bottom: 5vh;
+  }
+  .green__items h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: -2vh;
+  }
+  .white__logo {
+    width: 10vw;
+    margin-top: -7vh;
+    margin-bottom: 3vh;
+    margin-right: 8vh;
+  }
 }
